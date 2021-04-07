@@ -1,3 +1,5 @@
+# Create list of commits with the following command:
+#   git log --reverse <from-commit> <to-commit> --pretty=%H > commits
 $k = Get-Content .\commits
 $prefix = "JIRA-101. "
 foreach($r in $k) {
